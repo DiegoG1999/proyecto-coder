@@ -24,7 +24,7 @@ body {
     list-style-type: none;
     display: flex;
     gap: 1rem;
-
+    box-shadow: 6px 6px 6px #2a0396;
 }
 
 
@@ -33,6 +33,19 @@ body {
     list-style-type: none;
     gap: 1rem;
     font-size: 25px;
+
+}
+
+.lista-1:hover {
+    background-color: #faea106d;
+}
+
+.lista-2:hover {
+    background-color: #faea106d;
+}
+
+.lista-3:hover {
+    background-color: #faea106d;
 }
 
 .lista li a {
@@ -167,6 +180,7 @@ footer {
     .abrir-menu,
     .cerrar-menu {
         display: block;
+        border: 3px solid #8f737361;
     }
 
     .abrir-menu {
@@ -466,7 +480,8 @@ footer {
 .imagenes-descanso-1 {
     width: 550px;
 }
-.imagenes-descanso-2{
+
+.imagenes-descanso-2 {
     width: 350px;
 }
 
@@ -517,11 +532,12 @@ main {
 }
 
 .h4-entrenamiento {
-    border: 2px solid blueviolet;
+    /* border: 2px solid blueviolet; */
+    box-shadow: 8px 8px 8px #FAEA10;
 }
 
 .parrafo-h4 {
     padding: 2rem;
     font-size: 0.8rem;
-    border: 2px solid blueviolet;
+    box-shadow: 8px 8px #1c1c1c;
 }
