@@ -1,0 +1,45 @@
+.encabezado {
+    background-color: #1c1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+
+    &__nav {
+        list-style-type: none;
+        display: flex;
+        gap: 1rem;
+    }
+
+    &__lista {
+        display: flex;
+        list-style-type: none;
+        gap: 1rem;
+        font-size: 25px;
+    }
+
+
+    &__item a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: blueviolet;
+        }
+    }
+}
+
+.abrir-menu,
+.cerrar-menu {
+    border: 0;
+    font-size: 1 rem;
+    background-color: transparent;
+    display: none;
+}
+
+.logo {
+    width: 150px;
+}
+
+
+

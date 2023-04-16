@@ -1,0 +1,54 @@
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 3rem;
+    font-size: 3rem;
+}
+
+
+.cuerpo__fig {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.cuerpo__img {
+    width: 600px;
+    border: 4px solid rgba(0, 128, 2, 0.837);
+}
+
+.cuerpo__div {
+    margin: 5rem;
+}
+
+.cuerpo__parrafo__1 {
+    padding: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 4px;
+}
+
+h2 {
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.cuerpo__parrafo__2 {
+    text-align: center;
+    padding: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+
+
+
+@media screen {
+   
+    
+}
