@@ -1,0 +1,52 @@
+
+footer {
+    background-color: black;
+    color: white;
+
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.h3_contacto {
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    color: white;
+
+}
+
+.h3__datos {
+    margin-top: 1rem;
+    padding: 1rem;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+}
+
+.contenedor__lista {
+    margin-top: 10px;
+    list-style-type: none;
+    line-height: 30px;
+    color: white;
+}
+
+.form__1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.form__2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.form__3 {
+    text-align: center;
+    padding: 1rem;
+}

@@ -308,6 +308,7 @@ footer {
     .formulario-3 {
         padding: 1rem;
     }
+
 }
 
 /* ============CERREMOS MEDIAQUERIE================ */
@@ -329,8 +330,8 @@ footer {
 
 .hr-separador {
     grid-column: 2/3;
-   color: #1c1c1c;
-    
+    color: #1c1c1c;
+
 }
 
 .cuerpo-alimentacion-2 {
@@ -360,11 +361,12 @@ footer {
 }
 
 .imagenes-1 {
-    width:350px;
-    border:3px solid rgba(0, 0, 0, 0.596);
+    width: 350px;
+    border: 3px solid rgba(0, 0, 0, 0.596);
 
 }
-.pie-img{
+
+.pie-img {
     margin: 5px;
     padding: 5px;
 }
@@ -388,7 +390,7 @@ footer {
 
 /* ================  Abrimos Media  =============== */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:480px) {
     .cuerpo-alimentacion {
         display: flex;
         flex-direction: column-reverse;
