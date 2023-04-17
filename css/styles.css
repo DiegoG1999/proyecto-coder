@@ -13,10 +13,16 @@ footer {
 .contenedor {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+.contenedor__lista {
+  list-style-type: none;
+  line-height: 30px;
+  color: white;
 }
 
 .h3_contacto {
-  margin-top: 2rem;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   text-decoration: underline;
@@ -24,33 +30,20 @@ footer {
 }
 
 .h3__datos {
-  margin-top: 1rem;
   padding: 1rem;
   text-decoration: underline;
   font-style: italic;
   text-align: center;
 }
 
-.contenedor__lista {
-  margin-top: 10px;
-  list-style-type: none;
-  line-height: 30px;
-  color: white;
+.form__item {
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
-.form__1 {
-  text-align: center;
-  padding: 1rem;
-}
-
-.form__2 {
-  text-align: center;
-  padding: 1rem;
-}
-
-.form__3 {
-  text-align: center;
-  padding: 1rem;
+.form__item__1 {
+  width: 200px;
+  height: 50px;
 }
 
 .encabezado {
@@ -217,14 +210,12 @@ h2 {
   /* =================FOOTER================= */
   .contenedor {
     flex-direction: column;
+  }
+  .contenedor__lista {
+    padding: 2rem;
     align-items: center;
   }
-  .contenedor__contacto {
-    padding: 2rem;
-    text-align: center;
-  }
   .h3__contacto {
-    text-align: center;
     padding: 2rem;
     text-decoration: underline;
   }
@@ -233,17 +224,16 @@ h2 {
     padding: 2rem;
     text-decoration: underline;
   }
-  .formulario {
+  .contenedor__formulario {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    gap: 2rem;
+    align-items: center;
   }
-  .form_item {
+  .form__item {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .form_item__1 {
+  .form__item__1 {
     width: 12rem;
   }
 }

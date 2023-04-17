@@ -149,17 +149,15 @@ h2 {
 
     .contenedor {
         flex-direction: column;
+    }
+
+    .contenedor__lista {
+        padding: 2rem;
         align-items: center;
     }
 
-    .contenedor__contacto {
-        padding: 2rem;
-        text-align: center;
-
-    }
 
     .h3__contacto {
-        text-align: center;
         padding: 2rem;
         text-decoration: underline;
     }
@@ -170,24 +168,19 @@ h2 {
         text-decoration: underline;
     }
 
-    .formulario {
+    .contenedor__formulario {
         display: flex;
         flex-direction: column;
-        text-align: center;
-        gap: 2rem;
-
-
+        align-items: center;
     }
 
-    .form_item {
+    .form__item {
         padding-left: 2rem;
         padding-right: 2rem;
-
     }
 
-    .form_item__1 {
+    .form__item__1 {
         width: 12rem;
-
     }
 
 
