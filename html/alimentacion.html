@@ -13,15 +13,14 @@
 
 <body>
     <header class="encabezado">
-        <img class="logo" src="../img/cuerpo.png" alt="logo">
+        <a href="../index.html"><img class="logo" src="../img/cuerpo.png" alt="logo"></a>
         <button id="abrir" class="abrir-menu"> <i class="bi bi-list"></i></button>
         <nav class="encabezado__nav" id="nav">
             <button id="cerrar" class="cerrar-menu"> <i class="bi bi-x"></i></button>
             <ul class="encabezado__lista">
-                <li class="encabezado__item"><a href=""> Introduccion </a> </li>
-                <li class="encabezado__item"> <a href="./entrenamiento.html" target="_blank"> Entrenamiento </a></li>
-                <li class="encabezado__item"><a href="./descanso.html" target="_blank"> Descanso</a></li>
-                <li class="encabezado__item"><a href="./alimentacion.html" target="_blank"> Alimentacion </a></li>
+                <li class="encabezado__item"> <a href="./entrenamiento.html"> Entrenamiento </a></li>
+                <li class="encabezado__item"><a href="./descanso.html"> Descanso</a></li>
+                <li class="encabezado__item"><a href="./alimentacion.html"> Alimentacion </a></li>
 
             </ul>
         </nav>
@@ -55,53 +54,48 @@
                 </ul>
             </article>
         </section>
-        <section>
-
-            <article class="sec__alimentacion2">
-                <h2>Proteinas,Carbohidratos,Grasas Saludables</h2>
-                <p class="sec__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ipsa porro
-                    quibusdam distinctio, odit
-                    iusto quo ducimus natus ut perspiciatis aliquid ullam incidunt soluta beatae facere eveniet impedit
-                    eum earum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor repellat sapiente dolorum
-                    ab commodi voluptatibus magni, voluptatum eligendi quo minus ducimus quis nam, eum ad deleniti.
-                    Facilis magnam veniam repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quibusdam deleniti harum magnam reiciendis accusantium suscipit dolore itaque. Error nesciunt quae
-                    quis facilis dolore exercitationem hic, aliquam blanditiis qui corrupti explicabo!</p>
-
+        <section class="sec2">
+            <article class="sec2__art1">
+                <h2 class="sec2__titulo">Proteinas,Carbohidratos,Grasas Saludables</h2>
+                    <p class="sec2__parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ipsa porro
+                        quibusdam distinctio, odit
+                        iusto quo ducimus natus ut perspiciatis aliquid ullam incidunt soluta beatae facere eveniet
+                        impedit
+                        eum earum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor repellat sapiente
+                        dolorum
+                        ab commodi voluptatibus magni, voluptatum eligendi quo minus ducimus quis nam, eum ad deleniti.
+                        Facilis magnam veniam repellendus? </p>
+                
             </article>
-            <section>
-                <div>
-                    <figure class="imagenes">
-                        <div>
-                        <figcaption class="imagenes__fig">Proteina de alto valor</figcaption>
-                        <img class="imagenes__item" src="../img/Proteinas.jpeg" alt="proteinas">
+            <article class="sec2__imagenes">
+                <figure>
+                    <div>
+                        <figcaption class="sec2___fig">Proteina de alto valor</figcaption>
+                        <img class="sec2__item" src="../img/Proteinas.jpeg" alt="proteinas">
                     </div>
                     <div>
-                        <figcaption class="imagenes__fig">Grasas saludables</figcaption>
-                        <img class="imagenes__item" src="../img/grasas saludables.jpeg" alt="Grasas Saludables">
+                        <figcaption class="sec2__fig">Grasas saludables</figcaption>
+                        <img class="sec2__item" src="../img/grasas saludables.jpeg" alt="Grasas Saludables">
                     </div>
                     <div>
-                        <figcaption class="imagenes__fig">Carbohidratos Complejos</figcaption>
-                        <img class="imagenes__item" src="../img/carbohidratos.jfif" alt="Carbohidratos">
+                        <figcaption class="sec2__fig">Carbohidratos Complejos</figcaption>
+                        <img class="sec2__item" src="../img/carbohidratos.jfif" alt="Carbohidratos">
                     </div>
-                    </figure>
-                </div>
-            </section>
+                </figure>
+            </article>
+            <article class="sec2__parrafo2">
+                <h4 >¿Sabias que?</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, non.
+                    Sapiente aliquid in omnis
+                    at nemo
+                    ducimus ex iusto debitis sed sunt consequatur dolorem blanditiis, quas, assumenda maiores
+                    minus
+                    consequuntur. lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </article>
 
-            <div>
-                <h4 class="h4-alimentacion">¿Sabias que?</h4>
-                <ul class="lista-alimentacion">
-                <li>
-                    <p class="h4__parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, non.
-                        Sapiente aliquid in omnis
-                        at nemo
-                        ducimus ex iusto debitis sed sunt consequatur dolorem blanditiis, quas, assumenda maiores minus
-                        consequuntur. lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                </li>
-                </ul>
-            </div>
-            <hr class="hr-separador">
         </section>
+        <hr class="hr-separador">
+
         <section>
 
             <article class="cuerpo-parrafo">
@@ -135,19 +129,19 @@
             <div class="contenedor__contacto">
                 <h3 class="h3__contacto">Contacto</h3>
                 <ul class="contenedor__lista">
-                    <li class="contenedor__item"> <a href="https://www.whatsapp.com" target="_blank">
+                    <li> <a class="contenedor__item" href="https://www.whatsapp.com" target="_blank">
                             <i class="bi-whatsapp"></i>
                             Telefono
                         </a></li>
-                    <li class="contenedor__item"> <a href="https://www.instagram.com" target="_blank">
+                    <li> <a class="contenedor__item" href="https://www.instagram.com" target="_blank">
                             <i class="bi-instagram"></i>
                             Instagram
                         </a></li>
-                    <li class="contenedor__item"> <a href="https://www.facebook.com" target="_blank">
+                    <li> <a class="contenedor__item" href="https://www.facebook.com" target="_blank">
                             <i class="bi-facebook"></i>
                             Facebook
                         </a></li>
-                    <li class="contenedor__item"> <a href="https://www.gmail.com" target="_blank">
+                    <li> <a class="contenedor__item" href="https://www.gmail.com" target="_blank">
                             <i class="bi-envelope-at"></i>
                             Gmail
                         </a></li>

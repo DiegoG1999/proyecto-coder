@@ -7,49 +7,51 @@ h1 {
     line-height: 1px;
 }
 
+.cuerpo {
+    
+    &__fig {
+        display: flex;
+        justify-content: space-around;
+        padding: 3rem;
+    }
 
-.cuerpo__fig {
-    display: flex;
-    justify-content: space-around;
-    padding: 3rem;
-}
+    &__img {
+        width: 600px;
+        border: 4px solid rgba(0, 128, 2, 0.837);
+    }
 
-.cuerpo__img {
-    width: 600px;
-    border: 4px solid rgba(0, 128, 2, 0.837);
-}
+    &__div {
+        margin: 5rem;
+    }
 
-.cuerpo__div {
-    margin: 5rem;
-}
+    &__parrafo1 {
+        padding: 4rem;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: 'Times New Roman', Times, serif;
+        word-spacing: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.548);
+        border-radius: 50px;
+        background-color: #F5F5F5;
 
-.cuerpo__parrafo__1 {
-    padding: 4rem;
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'Times New Roman', Times, serif;
-    word-spacing: 4px;
-    border: 1px solid rgba(0, 0, 0, 0.548);
-    border-radius: 50px;
-    background-color: #F5F5F5;
+    }
 
-}
+    &__h2 {
+        padding: 1rem;
+        font-size: 2rem;
+        color: #bc8f8f71;
+        background-color: #00bfff4b;
+        width: 500px;
+    }
 
-h2 {
-    padding: 1rem;
-    font-size: 2rem;
-    color: #bc8f8f71;
-    background-color: #00bfff4b;
-    width: 500px;
-}
+    &__parrafo2 {
+        text-align: center;
+        padding: 4rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        word-spacing: 5px;
 
-.cuerpo__parrafo__2 {
-    text-align: center;
-    padding: 4rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    word-spacing: 5px;
-
+    }
 }
 
 @media (max-width:480px) {
