@@ -1,3 +1,6 @@
+$color-titulos: #2F4F4F;
+$color-subtitulo: #7B68EE;
+
 @media (max-width:599px) {
     
 }
@@ -11,6 +14,14 @@
 
 main {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.gym{
+
+    &__titulo{
+        text-align: center;
+        color: $color-titulos;
+        margin: 2rem;
+    }
 }
 
 .parrafo-entrenamiento {

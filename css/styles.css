@@ -761,6 +761,11 @@ body {
   main {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
+  .gym__titulo {
+    text-align: center;
+    color: #2F4F4F;
+    margin: 2rem;
+  }
   .parrafo-entrenamiento {
     margin: 3rem;
     padding-left: 10rem;
