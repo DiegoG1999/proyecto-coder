@@ -386,6 +386,7 @@ $color-subtitulo: #7B68EE;
 
 
     .sec3 {
+        margin: 3rem;
         &__h2 {
             text-align: center;
             color: $color-titulos;
@@ -468,6 +469,7 @@ $color-subtitulo: #7B68EE;
         display: grid;
         grid-template-columns: 60% 40%;
         grid-template-rows: 60% 40%;
+        margin-left: 2rem;
 
         &__h2 {
             text-align: center;
@@ -515,6 +517,8 @@ $color-subtitulo: #7B68EE;
 
 
     .sec3 {
+        margin: 3rem;
+
         &__h2 {
             text-align: center;
             color: $color-titulos;

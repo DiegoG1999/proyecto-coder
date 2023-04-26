@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgba(255, 250, 240, 0.2862745098);
+  background-color: rgba(255, 250, 240, 0.3882352941);
 }
 
 .contenedor {
@@ -636,6 +636,9 @@ body {
   .sec2__parrafo2 {
     padding: 1rem;
   }
+  .sec3 {
+    margin: 3rem;
+  }
   .sec3__h2 {
     text-align: center;
     color: #2F4F4F;
@@ -702,6 +705,7 @@ body {
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: 60% 40%;
+    margin-left: 2rem;
   }
   .sec2__h2 {
     text-align: center;
@@ -738,6 +742,9 @@ body {
   .sec2__parrafo2 {
     padding: 1rem;
   }
+  .sec3 {
+    margin: 3rem;
+  }
   .sec3__h2 {
     text-align: center;
     color: #2F4F4F;
@@ -757,34 +764,164 @@ body {
     margin: 1rem;
   }
 }
-@media (min-width: 1024px) {
-  main {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+@media (max-width: 599px) {
+  .gym {
+    margin: 2rem;
+  }
+  .gym__titulo {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2F4F4F;
+    font-size: 1.5rem;
+  }
+  .gym__h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+    color: #696969;
+    box-shadow: #696969 2px 2px 2px 2px;
+  }
+  .gym__parrafo {
+    padding: 1rem;
+  }
+  .gym2 {
+    margin: 2rem;
+  }
+  .gym2__h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #696969;
+    margin-bottom: 2rem;
+    box-shadow: #696969 2px 2px 2px 2px;
+  }
+  .gym2__h4 {
+    margin: 1rem;
+    margin-top: 3rem;
+    color: #7B68EE;
+  }
+  .gym2__parrafo {
+    border: 1px solid rgba(105, 105, 105, 0.2);
+    background-color: rgba(220, 220, 220, 0.1019607843);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .gym3 {
+    margin: 3rem;
+  }
+  .gym3__h2 {
+    box-shadow: #696969 2px 2px 2px 2px;
+    font-size: 1.2rem;
+    color: #696969;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 1023px) {
+  .gym {
+    margin: 4rem;
   }
   .gym__titulo {
     text-align: center;
     color: #2F4F4F;
-    margin: 2rem;
+    font-size: 1.8rem;
   }
-  .parrafo-entrenamiento {
-    margin: 3rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
+  .gym__h2 {
     text-align: center;
+    font-size: 1.5rem;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    color: #696969;
+    background-color: rgba(250, 234, 16, 0.3019607843);
+    box-shadow: #1c1c1c 2px 2px 2px 2px;
   }
-  .art-entrenamiento {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-  }
-  .h4-entrenamiento {
-    /* border: 2px solid blueviolet; */
-    box-shadow: 8px 8px 8px #FAEA10;
-  }
-  .parrafo-h4 {
+  .gym__parrafo {
     padding: 2rem;
-    font-size: 0.8rem;
-    box-shadow: 8px 8px #1c1c1c;
+  }
+  .gym2 {
+    margin: 4rem;
+  }
+  .gym2__h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #696969;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 128, 0, 0.479);
+    box-shadow: #1c1c1c 2px 2px 2px 2px;
+  }
+  .gym2__h4 {
+    margin: 2.5rem;
+    margin-top: 3.5rem;
+    color: #7B68EE;
+  }
+  .gym2__parrafo {
+    border: 1px solid rgba(105, 105, 105, 0.2);
+    background-color: rgba(220, 220, 220, 0.1019607843);
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .gym3 {
+    margin: 4rem;
+  }
+  .gym3__h2 {
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.5019607843);
+    box-shadow: #1c1c1c 2px 2px 2px 2px;
+    font-size: 1.5rem;
+    color: #696969;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .gym {
+    margin: 4rem;
+  }
+  .gym__titulo {
+    text-align: center;
+    color: #2F4F4F;
+    font-size: 1.8rem;
+  }
+  .gym__h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    color: #696969;
+    background-color: rgba(250, 234, 16, 0.3019607843);
+    box-shadow: #1c1c1c 2px 2px 2px 2px;
+  }
+  .gym__parrafo {
+    padding: 2rem;
+  }
+  .gym2 {
+    margin: 4rem;
+  }
+  .gym2__h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #696969;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 128, 0, 0.479);
+    box-shadow: #1c1c1c 2px 2px 2px 2px;
+  }
+  .gym2__h4 {
+    margin: 2.5rem;
+    margin-top: 3.5rem;
+    color: #7B68EE;
+  }
+  .gym2__parrafo {
+    border: 1px solid rgba(105, 105, 105, 0.2);
+    background-color: rgba(220, 220, 220, 0.1019607843);
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .gym3 {
+    margin: 4rem;
+  }
+  .gym3__h2 {
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.5019607843);
+    box-shadow: #1c1c1c 2px 2px 2px 2px;
+    font-size: 1.5rem;
+    color: #696969;
+    margin-bottom: 2rem;
   }
 }
 @media (max-width: 599px) {
