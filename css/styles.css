@@ -237,6 +237,7 @@ body {
     color: #2F4F4F;
     background-color: rgba(0, 191, 255, 0.2941176471);
     width: 500px;
+    background-image: linear-gradient(green, white);
   }
   .cuerpo__parrafo2 {
     text-align: center;
@@ -777,7 +778,7 @@ body {
   .gym__h2 {
     font-size: 1.3rem;
     margin-bottom: 1.3rem;
-    color: #696969;
+    color: rgba(28, 28, 28, 0.7607843137);
     box-shadow: #696969 2px 2px 2px 2px;
   }
   .gym__parrafo {
@@ -789,7 +790,7 @@ body {
   .gym2__h2 {
     text-align: center;
     font-size: 1.3rem;
-    color: #696969;
+    color: rgba(28, 28, 28, 0.7607843137);
     margin-bottom: 2rem;
     box-shadow: #696969 2px 2px 2px 2px;
   }
@@ -810,7 +811,7 @@ body {
   .gym3__h2 {
     box-shadow: #696969 2px 2px 2px 2px;
     font-size: 1.2rem;
-    color: #696969;
+    color: rgba(28, 28, 28, 0.7607843137);
     margin-bottom: 2rem;
   }
 }
@@ -828,7 +829,7 @@ body {
     font-size: 1.5rem;
     margin-top: 7rem;
     margin-bottom: 2rem;
-    color: #696969;
+    color: rgba(28, 28, 28, 0.7607843137);
     background-color: rgba(250, 234, 16, 0.3019607843);
     box-shadow: #1c1c1c 2px 2px 2px 2px;
   }
@@ -841,7 +842,7 @@ body {
   .gym2__h2 {
     text-align: center;
     font-size: 1.5rem;
-    color: #696969;
+    color: rgba(28, 28, 28, 0.7607843137);
     margin-bottom: 2rem;
     background-color: rgba(0, 128, 0, 0.479);
     box-shadow: #1c1c1c 2px 2px 2px 2px;
@@ -865,7 +866,7 @@ body {
     background-color: rgba(255, 0, 0, 0.5019607843);
     box-shadow: #1c1c1c 2px 2px 2px 2px;
     font-size: 1.5rem;
-    color: #696969;
+    color: rgba(28, 28, 28, 0.7607843137);
     margin-bottom: 2rem;
   }
 }
@@ -883,9 +884,9 @@ body {
     font-size: 1.5rem;
     margin-top: 7rem;
     margin-bottom: 2rem;
-    color: #696969;
+    color: rgba(28, 28, 28, 0.7607843137);
     background-color: rgba(250, 234, 16, 0.3019607843);
-    box-shadow: #1c1c1c 2px 2px 2px 2px;
+    background-image: linear-gradient(red, white);
   }
   .gym__parrafo {
     padding: 2rem;
@@ -896,10 +897,9 @@ body {
   .gym2__h2 {
     text-align: center;
     font-size: 1.5rem;
-    color: #696969;
+    color: rgba(28, 28, 28, 0.7607843137);
     margin-bottom: 2rem;
-    background-color: rgba(0, 128, 0, 0.479);
-    box-shadow: #1c1c1c 2px 2px 2px 2px;
+    background-image: linear-gradient(white, green);
   }
   .gym2__h4 {
     margin: 2.5rem;
@@ -920,7 +920,7 @@ body {
     background-color: rgba(255, 0, 0, 0.5019607843);
     box-shadow: #1c1c1c 2px 2px 2px 2px;
     font-size: 1.5rem;
-    color: #696969;
+    color: rgba(28, 28, 28, 0.7607843137);
     margin-bottom: 2rem;
   }
 }
