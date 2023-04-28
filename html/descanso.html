@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="icon" href="">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="encabezado">
-        <a href="../index.html"><img class="logo" src="../img/cuerpo.png" alt="logo"></a>
+        <a href="../index.html"><img class="logo" src="../img/icons8-durmiendo-en-la-cama-100.png" alt="logo"></a>
         <button id="abrir" class="abrir-menu"> <i class="bi bi-list"></i></button>
         <nav class="encabezado__nav" id="nav">
             <button id="cerrar" class="cerrar-menu"> <i class="bi bi-x"></i></button>
@@ -42,7 +43,7 @@
         </section>
 
         <section>
-            <article class="parte2">
+            <article class="parte2" >
                 <h2 class="parte2__h2">Cuanto debo dormir y como mejorar la calidad del sueño</h2>
                 <p class="parte2__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum fuga
                     voluptates, minus sint ab ad
@@ -50,7 +51,7 @@
                     consequatur aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias esse distinctio
                     beatae voluptas velit neque expedita molestias blanditiis ratione nobis? Numquam iure consequuntur
                     soluta exercitationem facilis cum voluptatum architecto a.</p>
-                <figure class="parte2__fig">
+                <figure class="parte2__fig" data-aos="flip-up">
                     <img class="parte2__img" src="../img/horas-de-sueo-min-980x794-1.jpg"
                         alt="cuanto dormir segun la edad">
                 </figure>
@@ -72,7 +73,7 @@
             <article>
                 <h2 class="parte4__h2"> Informacion extra :</h2>
                 <h4 class="parte4__h4 ">Los Energizantes y la Cafeina</h4>
-                <div class="parte4__div">
+                <div class="parte4__div" data-aos="fade-up" data-aos-duration="3000">
                     <p class="parte4__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
                         magnam
                         ducimus nihil illo minus
@@ -135,6 +136,12 @@
 
     </footer>
     <script src="../js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
 </body>
 
 </html>
