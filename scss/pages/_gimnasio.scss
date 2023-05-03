@@ -1,11 +1,22 @@
-$color-titulos: #2F4F4F;
+$color-titulos: #FF4500;
 $color-h2: #1c1c1cc2;
-$color-subtitulo: #7B68EE;
+$color-subtitulo: #1c1c1c;
 
 
 @media (max-width:599px) {
     .gym {
-        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 4rem;
+
+        &__art {
+            height:300px;
+            background-image: url(/img/gym-disco.avif);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
         &__titulo {
             text-align: center;
             margin-bottom: 2rem;
@@ -14,10 +25,11 @@ $color-subtitulo: #7B68EE;
         }
 
         &__h2 {
-            font-size: 1.3rem;
-            margin-bottom: 1.3rem;
+            margin-top: 2rem;
+            font-size: 1.5rem;
             color: $color-h2;
-            box-shadow: #696969 2px 2px 2px 2px;
+            background-color: #faea104d;
+            background-image: linear-gradient(red, white);
         }
 
         &__parrafo {
@@ -30,25 +42,59 @@ $color-subtitulo: #7B68EE;
 
         &__h2 {
             text-align: center;
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             color: $color-h2;
             margin-bottom: 2rem;
-            box-shadow: #696969 2px 2px 2px 2px;
+            background-image: linear-gradient(white, green);
+
         }
 
-        &__h4 {
-            margin: 1rem;
-            margin-top: 3rem;
+
+        &__d {
+            font-size: 1.5rem;
+            font-weight: 1200;
+            margin: 2.5rem;
+            margin-top: 3.5rem;
             color: $color-subtitulo;
-
         }
 
-        &__parrafo {
+        &__parrafo-d {
             border: 1px solid #69696933;
-            background-color: #dcdcdc1a;
-            padding: 1.5rem;
-            margin-bottom: 1rem;
+            background-color: #1c1c1c;
+            color: white;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
 
+        &__e {
+            font-size: 1.5rem;
+            font-weight: 1200;
+            margin: 2.5rem;
+            margin-top: 3.5rem;
+            color: red;
+        }
+
+        &__parrafo-e {
+            background-color: red;
+            color: white;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &__r {
+            font-size: 1.5rem;
+            font-weight: 1200;
+            margin: 2.5rem;
+            margin-top: 3.5rem;
+            color: yellow;
+        }
+
+        &__parrafo-r {
+            border: 1px solid #69696933;
+            background-image: linear-gradient(yellow, white);
+            color: #1c1c1c;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
         }
     }
 
@@ -56,138 +102,119 @@ $color-subtitulo: #7B68EE;
         margin: 3rem;
 
         &__h2 {
-            box-shadow: #696969 2px 2px 2px 2px;
-            font-size: 1.2rem;
+            text-align: center;
+            background-color: #ff000080;
+            box-shadow: #1c1c1c 2px 2px 2px 2px;
+            font-size: 1.5rem;
             color: $color-h2;
-            margin-bottom: 2rem;
-        }
+            margin-bottom: 2rem;  
     }
+    &__ul{
+        margin-top: 2rem;
+    }
+}
+
 }
 
 @media (min-width:600px) and (max-width:1023px) {
 
-.gym {
-    margin: 4rem;
-
-    &__titulo {
-        text-align: center;
-        color: $color-titulos;
-        font-size: 1.8rem;
-    }
-
-    &__h2 {
-        text-align: center;
-        font-size: 1.5rem;
-        margin-top: 7rem;
-        margin-bottom: 2rem;
-        color: $color-h2;
-        background-color: #faea104d;
-        box-shadow: #1c1c1c 2px 2px 2px 2px;
-    }
-
-    &__parrafo {
-        padding: 2rem;
-    }
-}
-
-.gym2 {
-    margin: 4rem;
-
-    &__h2 {
-        text-align: center;
-        font-size: 1.5rem;
-        color: $color-h2;
-        margin-bottom: 2rem;
-        background-color: rgba(0, 128, 0, 0.479);
-        box-shadow: #1c1c1c 2px 2px 2px 2px;
-    }
-
-    &__h4 {
-        margin: 2.5rem;
-        margin-top: 3.5rem;
-        color: $color-subtitulo;
-
-    }
-
-    &__parrafo {
-        border: 1px solid #69696933;
-        background-color: #dcdcdc1a;
-        padding: 2rem;
-        margin-bottom: 1.5rem;
-
-    }
-}
-
-.gym3 {
-    margin: 4rem;
-
-    &__h2 {
-        text-align: center;
-        background-color: #ff000080;
-        box-shadow: #1c1c1c 2px 2px 2px 2px;
-        font-size: 1.5rem;
-        color: $color-h2;
-        margin-bottom: 2rem;
-    }
-}
-}
-@media (min-width:1024px) {
     .gym {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         margin: 4rem;
-    
+
+        &__art {
+            height: 500px;
+            background-image: url(/img/gym-disco.avif);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
         &__titulo {
             text-align: center;
             color: $color-titulos;
             font-size: 1.8rem;
         }
-    
+
         &__h2 {
-            text-align: center;
+            margin-top: 2rem;
             font-size: 1.5rem;
-            margin-top: 7rem;
-            margin-bottom: 2rem;
             color: $color-h2;
             background-color: #faea104d;
-            background-image: linear-gradient(red,white);
-
+            background-image: linear-gradient(red, white);
         }
-    
+
         &__parrafo {
             padding: 2rem;
         }
     }
-    
+
     .gym2 {
+
         margin: 4rem;
-    
+
         &__h2 {
             text-align: center;
             font-size: 1.5rem;
             color: $color-h2;
             margin-bottom: 2rem;
-            background-image: linear-gradient(white,green);
+            background-image: linear-gradient(white, green);
 
         }
-    
-        &__h4 {
+
+
+        &__d {
+            font-size: 1.5rem;
+            font-weight: 1200;
             margin: 2.5rem;
             margin-top: 3.5rem;
             color: $color-subtitulo;
-    
         }
-    
-        &__parrafo {
+
+        &__parrafo-d {
             border: 1px solid #69696933;
-            background-color: #dcdcdc1a;
+            background-color: #1c1c1c;
+            color: white;
             padding: 2rem;
             margin-bottom: 1.5rem;
-    
+        }
+
+        &__e {
+            font-size: 1.5rem;
+            font-weight: 1200;
+            margin: 2.5rem;
+            margin-top: 3.5rem;
+            color: red;
+        }
+
+        &__parrafo-e {
+            background-color: red;
+            color: white;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &__r {
+            font-size: 1.5rem;
+            font-weight: 1200;
+            margin: 2.5rem;
+            margin-top: 3.5rem;
+            color: yellow;
+        }
+
+        &__parrafo-r {
+            border: 1px solid #69696933;
+            background-image: linear-gradient(yellow, white);
+            color: #1c1c1c;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
         }
     }
-    
+
     .gym3 {
         margin: 4rem;
-    
+
         &__h2 {
             text-align: center;
             background-color: #ff000080;
@@ -196,6 +223,126 @@ $color-subtitulo: #7B68EE;
             color: $color-h2;
             margin-bottom: 2rem;
         }
+        &__ul{
+            margin-top: 2rem;
+        }
     }
-    
+}
+
+@media (min-width:1024px) {
+    .gym {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 4rem;
+
+        &__art {
+            height: 700px;
+            background-image: url(/img/gym-disco.avif);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        &__titulo {
+
+            text-align: center;
+            color: $color-titulos;
+            font-size: 1.8rem;
+        }
+
+        &__h2 {
+            margin-top: 2rem;
+            font-size: 1.5rem;
+            color: $color-h2;
+            background-color: #faea104d;
+            background-image: linear-gradient(red, white);
+
+        }
+
+        &__parrafo {
+            padding: 2rem;
+            color: #1c1c1c;
+            font-weight: 600;
+            line-height: 1.5rem;
+        }
+    }
+
+    .gym2 {
+        margin: 4rem;
+
+        &__h2 {
+            text-align: center;
+            font-size: 1.5rem;
+            color: $color-h2;
+            margin-bottom: 2rem;
+            background-image: linear-gradient(white, green);
+
+        }
+
+        &__d {
+            font-size: 1.5rem;
+            font-weight: 1200;
+            margin: 2.5rem;
+            margin-top: 3.5rem;
+            color: $color-subtitulo;
+        }
+
+        &__parrafo-d {
+            border: 1px solid #69696933;
+            background-color: #1c1c1c;
+            color: white;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &__e {
+            font-size: 1.5rem;
+            font-weight: 1200;
+            margin: 2.5rem;
+            margin-top: 3.5rem;
+            color: red;
+        }
+
+        &__parrafo-e {
+            background-color: red;
+            color: white;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &__r {
+            font-size: 1.5rem;
+            font-weight: 1200;
+            margin: 2.5rem;
+            margin-top: 3.5rem;
+            color: yellow;
+        }
+
+        &__parrafo-r {
+            border: 1px solid #69696933;
+            background-image: linear-gradient(yellow, white);
+            color: #1c1c1c;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+
+    }
+
+    .gym3 {
+        margin: 4rem;
+
+        &__h2 {
+            text-align: center;
+            background-color: #ff000080;
+            box-shadow: #1c1c1c 2px 2px 2px 2px;
+            font-size: 1.5rem;
+            color: $color-h2;
+            margin-bottom: 2rem;
+        }
+        &__ul{
+            margin-top: 2rem;
+        }
+    }
+
 }

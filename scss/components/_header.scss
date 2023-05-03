@@ -1,12 +1,13 @@
 .encabezado {
-    
+    height: 150px;
     background-image: linear-gradient(black,white);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
+    
 
     &__lista {
+        margin-right: 4rem;
         display: flex;
         list-style-type: none;
         gap: 1rem;
@@ -34,7 +35,8 @@
 }
 
 .logo {
-    width: 150px;
+    margin-left: 4rem;
+    width: 100px;
 
 }
 
@@ -43,6 +45,7 @@
 
 
     .encabezado {
+        height: 200px;
         background-color: #1c1c1c;
         display: flex;
         flex-direction: column;
@@ -52,24 +55,26 @@
 
         &__lista {
             display: flex;
+            margin: 0;
             list-style-type: none;
             gap: 1rem;
             font-size: 1.3rem;
         }
 
-        &__item a {
+        &__item a{
             color: white;
             text-decoration: none;
 
-            &:hover {
+        &:hover {
                 color: green;
             }
         }
     }
 
     .logo {
-        width: 7rem;
-        margin-bottom: 2rem;
+        margin: 0;
+        width: 100px;
+        margin-bottom: 1rem;
 
     }
 
@@ -90,6 +95,7 @@
     .abrir-menu,
     .cerrar-menu {
         display: block;
+        margin-right: 2rem;
     }
 
     .abrir-menu {
@@ -98,6 +104,8 @@
 
     .cerrar-menu {
         color: #ececec;
+        margin: 0;
+        margin-top: 2rem;
     }
 
     .encabezado__nav {
@@ -126,6 +134,7 @@
         flex-direction: column;
         align-items: end;
         font-size: 1rem;
+        margin: 0;
 
     }
 

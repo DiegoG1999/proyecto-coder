@@ -32,9 +32,7 @@ $color-subtitulo: #7B68EE;
 
         &__parrafo1 {
             padding: 4rem;
-            text-align: center;
-            font-size: 1.5rem;
-            word-spacing: 4px;
+            word-spacing: 6px;
             border: 1px solid rgba(0, 0, 0, 0.548);
             border-radius: 50px;
             background-color: #F5F5F5;
@@ -43,17 +41,16 @@ $color-subtitulo: #7B68EE;
 
         &__h2 {
             padding: 1rem;
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: $color-titulos;
             background-color: #00bfff4b;
-            width: 500px;
+            width: 310px;
             background-image:linear-gradient(green,white);
         }
 
         &__parrafo2 {
-            text-align: center;
             padding: 4rem;
-            font-size: 20px;
+            font-size: 1.2rem;
             word-spacing: 5px;
 
         }
@@ -91,7 +88,6 @@ $color-subtitulo: #7B68EE;
 
         &__parrafo1 {
             padding: 4rem;
-            font-size: 1.3rem;
             word-spacing: 4px;
             border: 1px solid rgba(0, 0, 0, 0.548);
             border-radius: 50px;
@@ -110,7 +106,6 @@ $color-subtitulo: #7B68EE;
 
         &__parrafo2 {
             padding: 4rem;
-            font-size: 1.2rem;
             word-spacing: 5px;
 
         }
@@ -154,7 +149,6 @@ $color-subtitulo: #7B68EE;
         }
 
         &__parrafo2 {
-            font-size: 1rem;
             padding: 1.5rem;
         }
 
