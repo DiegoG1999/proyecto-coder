@@ -267,9 +267,7 @@ $color-subtitulo: #7B68EE;
         }
 
         &__lista {
-            margin: 1rem;
-            padding: 1rem;
-            font-size: 1.1rem;
+            padding: 2rem;
         }
 
         &__h4 {
@@ -430,9 +428,9 @@ $color-subtitulo: #7B68EE;
         &__parrafo {
             padding: 2rem;
             margin: 2rem;
-            border: 2px solid black;
-            border-radius: 4px;
-            background-color: rgba(240, 230, 140, 0.377);
+            border: 1px solid black;
+            border-radius: 50px;
+            background-color: rgb(233, 233, 233);
         }
 
         &__hr {

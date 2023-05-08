@@ -546,9 +546,7 @@ body {
     font-size: 1.1rem;
   }
   .sec3__lista {
-    margin: 1rem;
-    padding: 1rem;
-    font-size: 1.1rem;
+    padding: 2rem;
   }
   .sec3__h4 {
     font-size: 1rem;
@@ -677,9 +675,9 @@ body {
   .sec__parrafo {
     padding: 2rem;
     margin: 2rem;
-    border: 2px solid black;
-    border-radius: 4px;
-    background-color: rgba(240, 230, 140, 0.377);
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: rgb(233, 233, 233);
   }
   .sec__hr {
     width: 4px;
@@ -1094,7 +1092,7 @@ body {
   }
   .parte3 {
     margin: 2rem;
-    margin-bottom: 9rem;
+    margin-bottom: 6rem;
   }
   .parte3__h2 {
     color: #FF4500;
@@ -1123,6 +1121,7 @@ body {
   .parte4__div {
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     align-items: center;
   }
   .parte4__parrafo {
@@ -1235,11 +1234,11 @@ body {
     margin: 5rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    font-size: 1.3rem;
   }
   .parte2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20% 40% 40%;
     margin: 5rem;
   }
   .parte2__h2 {
@@ -1248,17 +1247,24 @@ body {
   }
   .parte2__parrafo {
     grid-column: 1/2;
-    font-size: 1.3rem;
-    margin: 3rem;
+    margin: 2rem;
     padding: 2rem;
   }
   .parte2__fig {
     grid-column: 2/3;
-    margin-top: 6rem;
+    grid-row: 2/4;
+    margin-top: 2rem;
     margin-left: 3rem;
   }
   .parte2__img {
     width: 400px;
+  }
+  .parte2__div {
+    grid-row: 3/4;
+    margin: 2rem;
+  }
+  .parte2__h3 {
+    margin-bottom: 2rem;
   }
   .parte3 {
     margin: 2rem;
