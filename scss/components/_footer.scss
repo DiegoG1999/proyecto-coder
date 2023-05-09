@@ -2,21 +2,37 @@
 .contenedor {
     background-image: linear-gradient(white,black);
     color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    height: 150px;
 
     &__lista {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
         list-style-type: none;
         line-height: 30px;
+        margin-bottom: 20px;
     }
 
     &__item {
         color: white;
         text-decoration: none;
     }
-
+    &__h3{
+        text-align: center;
+        margin: 25px;
+        padding-top : 20px;
+    }
 }
+
+    .contenedor__hr{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .contacto__texto{
+        text-align: center;
+    }
+    
+
 .bi-envelope-at{
     color: red;
 }
@@ -30,68 +46,43 @@
     color: green;
 }
 
-
-
-.h3_contacto {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
-.h3__datos {
-    padding: 1rem;
-    text-decoration: underline;
-    font-style: italic;
-    text-align: center;
-}
-
-.form__item {
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
-.form__item__1 {
-    width: 200px;
-    height: 50px;
-}
-
-@media (min-width:480px) and (max-width:1024px){
-
-}
 @media (max-width:599px) {
 
     .contenedor {
-        flex-direction: column;
+        background-color: black;
+        height: 220px;
+
+        &__lista {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: start;
+            gap: 20px;
+            list-style-type: none;
+            line-height: 15px;
+            margin-bottom: 10px;
+            
+        }
+    
+        &__item {
+            color: white;
+            text-decoration: none;
+            
+        }
+        &__h3{
+            text-align: center;
+            margin: 15px;
+            padding-top : 10px;
+        }
     }
-
-    .contenedor__lista {
-        padding: 1rem;
-        align-items: center;
+    
+    .contenedor__hr{
+        margin-left: 80px;
+        margin-right: 80px;
     }
-
-
-    .h3__contacto {
+    .contacto__texto{
         text-align: center;
-        padding: 1rem;
+        margin: 2px;
     }
-
-    .h3__datos {
-        text-align: center;
-        padding: 2rem;
-    }
-
-    .contenedor__formulario {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .form__item {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
-    .form__item__1 {
-        width: 10rem;
-    }
-
+    
 }
