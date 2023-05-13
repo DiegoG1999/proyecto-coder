@@ -23,10 +23,11 @@ body {
   margin-bottom: 20px;
 }
 .contenedor__item {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 .contenedor__h3 {
+  color: coral;
   text-align: center;
   margin: 25px;
   padding-top: 20px;
@@ -73,10 +74,11 @@ body {
     margin-bottom: 10px;
   }
   .contenedor__item {
-    color: white;
+    color: black;
     text-decoration: none;
   }
   .contenedor__h3 {
+    color: coral;
     text-align: center;
     margin: 15px;
     padding-top: 10px;
@@ -105,11 +107,8 @@ body {
   font-size: 25px;
 }
 .encabezado__item a {
-  color: #00FF00;
+  color: coral;
   text-decoration: none;
-}
-.encabezado__item a:hover {
-  color: green;
 }
 
 .abrir-menu,
@@ -125,7 +124,7 @@ body {
   width: 100px;
 }
 
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1023px) {
   .encabezado {
     height: 200px;
     background-color: #1c1c1c;
@@ -142,12 +141,9 @@ body {
     gap: 1rem;
     font-size: 1.3rem;
   }
-  .encabezado__item a {
-    color: white;
+  .encabezado__item {
+    color: coral;
     text-decoration: none;
-  }
-  .encabezado__item a:hover {
-    color: green;
   }
   .logo {
     margin: 0;
@@ -1059,11 +1055,6 @@ body {
     text-align: center;
     color: #FF4500;
   }
-  .parte__parrafo {
-    margin: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
   .parte2 {
     display: flex;
     flex-direction: column;
@@ -1071,14 +1062,14 @@ body {
     margin: 5rem;
   }
   .parte2__h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     grid-column: 1/3;
     color: #FF4500;
   }
   .parte2__parrafo {
     grid-column: 1/2;
-    margin: 1rem;
-    padding: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
   }
   .parte2__fig {
     grid-column: 2/3;
@@ -1142,12 +1133,6 @@ body {
     font-size: 1.8rem;
     text-align: center;
     color: #FF4500;
-  }
-  .parte__parrafo {
-    margin: 5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    font-size: 1.3rem;
   }
   .parte2 {
     display: flex;
@@ -1228,11 +1213,6 @@ body {
     text-align: center;
     color: #FF4500;
   }
-  .parte__parrafo {
-    margin: 5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
   .parte2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1245,8 +1225,8 @@ body {
   }
   .parte2__parrafo {
     grid-column: 1/2;
-    margin: 2rem;
-    padding: 2rem;
+    margin: 1rem;
+    padding: 1rem;
   }
   .parte2__fig {
     grid-column: 2/3;

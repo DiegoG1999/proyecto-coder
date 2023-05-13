@@ -45,7 +45,7 @@ $color-subtitulo: #7B68EE;
             color: $color-titulos;
             background-color: #00bfff4b;
             width: 310px;
-            background-image:linear-gradient(green,white);
+            background-image: linear-gradient(green, white);
         }
 
         &__parrafo2 {
@@ -60,7 +60,7 @@ $color-subtitulo: #7B68EE;
 @media (min-width:600px) and (max-width:1024px) {
 
     .cuerpo {
-        
+
         &__titulo {
             text-align: center;
             padding: 3rem;

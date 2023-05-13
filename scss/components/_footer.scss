@@ -1,6 +1,5 @@
-
 .contenedor {
-    background-image: linear-gradient(white,black);
+    background-image: linear-gradient(white, black);
     color: white;
     height: 150px;
 
@@ -14,35 +13,41 @@
     }
 
     &__item {
-        color: white;
+        color: black;
         text-decoration: none;
     }
-    &__h3{
+
+    &__h3 {
+        color: coral;
         text-align: center;
         margin: 25px;
-        padding-top : 20px;
+        padding-top: 20px;
     }
 }
 
-    .contenedor__hr{
-        margin-left: 200px;
-        margin-right: 200px;
-    }
-    .contacto__texto{
-        text-align: center;
-    }
-    
+.contenedor__hr {
+    margin-left: 200px;
+    margin-right: 200px;
+}
 
-.bi-envelope-at{
+.contacto__texto {
+    text-align: center;
+}
+
+
+.bi-envelope-at {
     color: red;
 }
-.bi-facebook{
+
+.bi-facebook {
     color: blue;
 }
-.bi-instagram{
+
+.bi-instagram {
     color: pink;
 }
-.bi-whatsapp{
+
+.bi-whatsapp {
     color: green;
 }
 
@@ -61,28 +66,31 @@
             list-style-type: none;
             line-height: 15px;
             margin-bottom: 10px;
-            
+
         }
-    
+
         &__item {
-            color: white;
+            color: black;
             text-decoration: none;
-            
+
         }
-        &__h3{
+
+        &__h3 {
+            color: coral;
             text-align: center;
             margin: 15px;
-            padding-top : 10px;
+            padding-top: 10px;
         }
     }
-    
-    .contenedor__hr{
+
+    .contenedor__hr {
         margin-left: 80px;
         margin-right: 80px;
     }
-    .contacto__texto{
+
+    .contacto__texto {
         text-align: center;
         margin: 2px;
     }
-    
+
 }

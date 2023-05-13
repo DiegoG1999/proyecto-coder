@@ -11,7 +11,7 @@ $color-subtitulo: #1c1c1c;
         margin: 4rem;
 
         &__art {
-            height:300px;
+            height: 300px;
             background-image: url(/img/gym-disco.avif);
             background-repeat: no-repeat;
             background-size: 100% 100%;
@@ -107,12 +107,13 @@ $color-subtitulo: #1c1c1c;
             box-shadow: #1c1c1c 2px 2px 2px 2px;
             font-size: 1.5rem;
             color: $color-h2;
-            margin-bottom: 2rem;  
+            margin-bottom: 2rem;
+        }
+
+        &__ul {
+            margin-top: 2rem;
+        }
     }
-    &__ul{
-        margin-top: 2rem;
-    }
-}
 
 }
 
@@ -223,7 +224,8 @@ $color-subtitulo: #1c1c1c;
             color: $color-h2;
             margin-bottom: 2rem;
         }
-        &__ul{
+
+        &__ul {
             margin-top: 2rem;
         }
     }
@@ -340,7 +342,8 @@ $color-subtitulo: #1c1c1c;
             color: $color-h2;
             margin-bottom: 2rem;
         }
-        &__ul{
+
+        &__ul {
             margin-top: 2rem;
         }
     }
