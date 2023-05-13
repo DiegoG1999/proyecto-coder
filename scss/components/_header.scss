@@ -1,11 +1,10 @@
-
 .encabezado {
     height: 150px;
-    background-image: linear-gradient(black,white);
+    background-image: linear-gradient(black, white);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 
     &__lista {
         margin-right: 4rem;
@@ -19,7 +18,7 @@
     &__item a {
         color: coral;
         text-decoration: none;
-        
+
     }
 }
 
@@ -131,7 +130,7 @@
 
     }
 
-    .encabezado__item a{
+    .encabezado__item a {
         color: white;
     }
 
